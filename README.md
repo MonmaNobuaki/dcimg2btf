@@ -11,4 +11,26 @@ $ git clone https://github.com/MonmaNobuaki/dcimg2btf.git
 ```
 
 2.Go into the repository.
+```bash
 $ cd dcimg2btf
+```
+
+3.Use the package manager pip to install requirements.
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+This script is designed to extract dcimg format files from a specified folder and convert them into btf format. Additionally, it allows for the selection of a destination folder to save the converted files. With several optimizations, the conversion process is executed at a high speed.
+
+Please execute the script with the following command
+```bash
+$ python dcimg2btf.py
+```
+When you execute the script, a window will appear. Please select the folder containing the dcimg files you want to convert.
+
+[![スクリーンショット](/path/to/img.jpg)](https://example.com/)
+
+After specifying the folder you want to read from, the next step is to specify the folder where you want to save the converted files. A similar window will appear, so please select the folder you want to use for writing.
+
+[![スクリーンショット](/path/to/img.jpg)](https://example.com/)
