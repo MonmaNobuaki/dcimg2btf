@@ -29,11 +29,11 @@ python dcimg2btf.py
 ```
 When you execute the script, a window will appear. Please select the folder containing the dcimg files you want to convert.
 
-![Test Image 1](image/Input.png)
+![Test Image 1](images/input.png)
 
 After specifying the folder you want to read from, the next step is to specify the folder where you want to save the converted files. A similar window will appear, so please select the folder you want to use for writing.
 
-![Test Image 2](image/Output.png)
+![Test Image 2](images/output.png)
 
 After specifying the input and output folders, please wait for the conversion to finish. This may take some time depending on the number of files and the size of the files being converted.
 
