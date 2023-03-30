@@ -36,3 +36,9 @@ After specifying the folder you want to read from, the next step is to specify t
 ![Test Image 2](image/Output.png)
 
 After specifying the input and output folders, please wait for the conversion to finish. This may take some time depending on the number of files and the size of the files being converted.
+
+##Contributing
+Questions are welcome. I would be glad to receive feedback from everyone.
+
+## License
+This file is open-source and available for use. I would be delighted if it could be useful to many people.
