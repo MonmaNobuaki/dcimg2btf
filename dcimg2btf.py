@@ -5,7 +5,11 @@ from tkinter import filedialog, messagebox
 import datetime
 import os
 
-root = tk.Tk() #メインウィンドウの作成
+# Please provide information about the video file you want to convert. Frames : number of frames  
+#                                                                      width, height : number of pixels.
+Frames,width,height = [60000,576,576]　
+
+root = tk.Tk()
 root.withdraw()
 
 
@@ -29,8 +33,6 @@ print('start in ' + str(time)[:-7])
 
 for filename in reading_file:
     os.chdir(target_dir)
-
-    Frames,width,height = [60000,576,576]
 
     print('Reading... ' + str(filename))
     MM = np.memmap(filename, mode='r', dtype='uint16')
