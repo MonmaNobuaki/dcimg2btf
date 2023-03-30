@@ -37,7 +37,7 @@ After specifying the folder you want to read from, the next step is to specify t
 
 After specifying the input and output folders, please wait for the conversion to finish. This may take some time depending on the number of files and the size of the files being converted.
 
-##Contributing
+## Contributing
 Questions are welcome. I would be glad to receive feedback from everyone.
 
 ## License
