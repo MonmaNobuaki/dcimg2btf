@@ -7,12 +7,12 @@ The dcimg format is a format that allows for fast writing, but it cannot be load
 
 1.Clone this repository in command line.
 ```bash
-$ git clone https://github.com/MonmaNobuaki/dcimg2btf.git
+git clone https://github.com/MonmaNobuaki/dcimg2btf.git
 ```
 
 2.Go into the repository.
 ```bash
-$ cd dcimg2btf
+cd dcimg2btf
 ```
 
 3.Use the package manager pip to install requirements.
@@ -25,12 +25,14 @@ This script is designed to extract dcimg format files from a specified folder an
 
 Please execute the script with the following command
 ```bash
-$ python dcimg2btf.py
+python dcimg2btf.py
 ```
 When you execute the script, a window will appear. Please select the folder containing the dcimg files you want to convert.
 
-[![スクリーンショット](/path/to/img.jpg)](https://example.com/)
+![Test Image 1](image/Input.png)
 
 After specifying the folder you want to read from, the next step is to specify the folder where you want to save the converted files. A similar window will appear, so please select the folder you want to use for writing.
 
-[![スクリーンショット](/path/to/img.jpg)](https://example.com/)
+![Test Image 2](image/Output.png)
+
+After specifying the input and output folders, please wait for the conversion to finish. This may take some time depending on the number of files and the size of the files being converted.
