@@ -12,14 +12,11 @@ This is a script to convert files in the dcimg format from Hamamatsu Photonics t
 [![Build Status](https://travis-ci.com/username/repo.svg?branch=master)](https://travis-ci.com/username/repo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-プロジェクトの簡単な説明がここに入ります。なぜこのプロジェクトを作成したのか、その目的や利点は何か、どのような問題を解決するのかを明確に示してください。
+The dcimg format is a format that allows for fast writing, but it cannot be loaded in programs such as Fiji. Therefore, it was necessary to convert it to the more manageable btf format, and I implemented code to directly convert dcimg format to btf format. The conversion speed has been improved with some optimizations.
 
-## インストール方法
+## Install 
 
 このプロジェクトをインストールする方法についての手順を記述します。プロジェクトが依存するパッケージやライブラリ、コマンドをインストールする必要がある場合は、その手順も記述してください。
 
 ```bash
-$ npm install
-$ gem install my_gem
-$ pip install -r requirements.txt
-
+$ git clone https://github.com/MonmaNobuaki/dcimg2btf.git
