@@ -15,11 +15,6 @@ git clone https://github.com/MonmaNobuaki/dcimg2btf.git
 cd dcimg2btf
 ```
 
-3.Use the package manager pip to install requirements.
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 This script is designed to extract dcimg format files from a specified folder and convert them into btf format. Additionally, it allows for the selection of a destination folder to save the converted files. With several optimizations, the conversion process is executed at a high speed.
 
