@@ -5,9 +5,8 @@ from tkinter import filedialog, messagebox
 import datetime
 import os
 
-# Please provide information about the video file you want to convert. Frames : number of frames  
-#                                                                      width, height : number of pixels.
-Frames,width,height = [60000,576,576]　
+# Please provide information about the video file you want to convert. width, height : number of pixels.
+width,height = [576,576]　
 
 root = tk.Tk()
 root.withdraw()
