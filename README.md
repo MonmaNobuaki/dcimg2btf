@@ -18,6 +18,8 @@ cd dcimg2btf
 ## Usage
 This script is designed to extract dcimg format files from a specified folder and convert them into btf format. Additionally, it allows for the selection of a destination folder to save the converted files. With several optimizations, the conversion process is executed at a high speed.
 
+Before executing,set the number of pixels in height and width of the file you want to convert in line 9 of the script. 
+
 Please execute the script with the following command
 ```bash
 python dcimg2btf.py
