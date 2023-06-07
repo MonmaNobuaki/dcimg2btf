@@ -38,4 +38,7 @@ After specifying the input and output folders, please wait for the conversion to
 This script is open-source and available for use. But, if you have any questions, Please contact me not Hamamatsu Photonics. 
 
 ## License
+
+Copyright (c) 2023 Nobuaki Monma 
+
 This software is released under the MIT License, see LICENSE.txt.
