@@ -28,7 +28,7 @@ When you execute the script, a window will appear. Please select the folder cont
 
 ![Test Image 1](images/input.png)
 
-After specifying the folder you want to read from, the next step is to specify the folder where you want to save the converted files. A similar window will appear, so please select the folder you want to use for writing.
+After specifying the folder you want to read from, the next step is to specify the folder where you want to save the converted files. A similar window will appear, so please select the folder you want to use for saving.
 
 ![Test Image 2](images/output.png)
 
