@@ -12,7 +12,7 @@ root = tk.Tk()
 root.withdraw()
 
 
-ready_1 = messagebox.showinfo('showinfo','Select reading directory')
+ready_1 = messagebox.showinfo('showinfo','Select directory for reading files')
 target_dir = filedialog.askdirectory(initialdir = dir) 
 
 ready_2 = messagebox.showinfo('showinfo','Select directory for saving files')
