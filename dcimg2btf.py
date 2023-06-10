@@ -6,7 +6,7 @@ import datetime
 import os
 
 # Please provide information about the video file you want to convert. width, height : number of pixels.
-width,height = [576,576]　
+width,height = [576,576]
 
 root = tk.Tk()
 root.withdraw()
