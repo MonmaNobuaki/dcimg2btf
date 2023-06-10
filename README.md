@@ -15,7 +15,7 @@ git clone https://github.com/MonmaNobuaki/dcimg2btf.git
 cd dcimg2btf
 ```
 
-3. Use the package manager pip to install requirements.
+3. Use the pip module to install requirements.
 ```bash
 pip install -r requirements.txt
 ```
