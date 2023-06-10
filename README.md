@@ -5,17 +5,17 @@ The dcimg format is a format that allows for fast writing, but it cannot be load
 
 ## Installation
 
-1.Clone this repository in command line.
+1. Clone this repository in command line.
 ```bash
 git clone https://github.com/MonmaNobuaki/dcimg2btf.git
 ```
 
-2.Go into the repository.
+2. Go into the repository.
 ```bash
 cd dcimg2btf
 ```
 
-3.Use the package manager pip to install requirements.
+3. Use the package manager pip to install requirements.
 ```bash
 pip install -r requirements.txt
 ```
