@@ -20,6 +20,8 @@ cd dcimg2btf
 pip install -r requirements.txt
 ```
 
+Sometimes it does not work well with some versions of python. Recommended environment is python 3.9.
+
 ## Usage
 This script is designed to extract dcimg format files from a specified folder and convert them into btf format. Additionally, it allows for the selection of a destination folder to save the converted files. With several optimizations, the conversion process is executed at a high speed.
 
