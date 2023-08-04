@@ -41,8 +41,9 @@ for filename in reading_file:
     i = 0
     while i < len(index[0])-1:
         if index[0][i+1]  - index[0][i] == 2:
-            Idx.append(index[0][i]-1)
-            i+=1
+            if MM[index[0][i+1]-1] == 0 and MM[index[0][i]-1] == 0:
+                Idx.append(index[0][i]-1)
+                i+=1
         i+=1
     os.chdir(save_dir)
     flag = 0
